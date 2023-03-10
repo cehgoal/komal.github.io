@@ -1,0 +1,139 @@
+/* Banner with background */
+div#topbanner {
+    background: url(img/tiger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* text that shows over the banner */
+div#topbanner h1 {
+    text-align: center;
+    padding: 165px 0px 180px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: oswald;
+}
+
+/*site body layout, reset default css for all browsers, site background, font size and google fonts*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    background: #f3bdbd;
+    font-family: cardo;
+}
+
+div#main-content,
+.facts,
+#contact {
+    padding: 10px;
+}
+
+main {
+    background: #f9f9fb;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* navigation list  */
+div#navigation ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+div#navigation ul li {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+div#navigation ul li:nth-child(2) {
+    border: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+/* layout for main content */
+.flex {
+    display: flex;
+}
+
+div#main-content img {
+    width: 100%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.tiger {
+    height: 105%;
+    width: 140%;
+}
+
+.col-10 {
+    width: 80%;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 11px 0px;
+}
+
+div#main-content p {
+    padding: 0px 18px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+/* facts section */
+.facts ul {
+    padding: 0px 21px;
+    font-size: 17px;
+}
+
+/* form style */
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 18px 14px;
+}
+
+.label {
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 7px;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    width: 82px;
+    font-size: 14px;
+    font-family: cardo;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background: transparent;
+}
+
+textarea#message {
+    height: 64PX;
+}
+
+/* footer */
+footer {
+    padding: 10px;
+    text-align: right;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: oswald;
+}
